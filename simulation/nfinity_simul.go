@@ -7,7 +7,7 @@ import (
 	"github.com/csanti/onet"
 	"github.com/csanti/onet/log"
 	"github.com/csanti/onet/simul/monitor"
-	concordia "github.com/hy06ix/corthority/service"
+	concordia "github.com/hy06ix/concordia/service"
 )
 
 // Name is the name of the simulation

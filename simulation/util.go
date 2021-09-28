@@ -2,8 +2,8 @@ package simulation
 
 import (
 	concordia "github.com/hy06ix/concordia/service"
-	"go.dedis.ch/kyber/share"
-	"go.dedis.ch/kyber/util/random"
+	"go.dedis.ch/kyber/v3/share"
+	"go.dedis.ch/kyber/v3/util/random"
 )
 
 func dkg(t, n int) ([]*share.PriShare, *share.PubPoly) {
