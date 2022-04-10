@@ -1,7 +1,7 @@
 package service
 
 import (
-	"github.com/csanti/onet/network"
+	"github.com/hy06ix/onet/network"
 )
 
 var BlockProposalType network.MessageTypeID
@@ -17,18 +17,18 @@ func init() {
 type BlockProposal struct {
 	TrackId int
 	*Block
-	Count int // count of parital signatures in the array
+	Count      int                 // count of parital signatures in the array
 	Signatures []*PartialSignature // Partial signature from the signer
 }
 
 type PartialSignature struct {
-	Signer int
+	Signer  int
 	Partial []byte
 }
 
 type NotarizedBlock struct {
-	Round int
-	Hash string
+	Round     int
+	Hash      string
 	Signature []byte
 }
 
