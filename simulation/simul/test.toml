@@ -1,5 +1,5 @@
 Simulation = "concordia"
-Servers = 1
+Servers = 2
 Bf = 19
 Rounds = 10
 Suite = "bn256.G2"
@@ -12,4 +12,4 @@ BlockSize = 1000000
 MaxRoundLoops = 4
 
 Hosts
-20
+40
